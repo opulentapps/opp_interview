@@ -1,0 +1,39 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Opulent_Interview' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'SDWebImage'
+  pod 'IQKeyboardManagerSwift', '~> 6.0.4'
+  pod 'FontAwesomeKit'
+  pod 'Toast-Swift', '~> 4.0.0'
+  pod 'TTRangeSlider'
+  #AutoLayout
+  pod 'PureLayout'
+  #Firebase
+  pod 'Firebase/Core'
+  pod 'Firebase/Database'
+  pod 'Firebase/Messaging'
+  pod 'Firebase/AdMob'
+  pod 'Firebase/Crash'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Storage'
+  pod 'Firebase/RemoteConfig'
+  #Hyperlink label
+  pod 'TTTAttributedLabel'
+  #Json
+  pod 'SwiftyJSON'
+  # Pods for Opulent_Interview
+
+  target 'Opulent_InterviewTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Opulent_InterviewUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
