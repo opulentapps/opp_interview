@@ -25,7 +25,16 @@ target 'Opulent_Interview' do
   #Json
   pod 'SwiftyJSON'
   # Pods for Opulent_Interview
+  #Google
+  pod 'GoogleSignIn'
+  pod 'GoogleMaps'
+  pod 'Google-Mobile-Ads-SDK'
 
+  #    pod try 'Google-Maps-iOS-Utils'
+  #gmail
+  pod 'GoogleAPIClientForREST/Gmail', '~> 1.1.1'
+  pod 'GTMAppAuth'
+  
   target 'Opulent_InterviewTests' do
     inherit! :search_paths
     # Pods for testing
