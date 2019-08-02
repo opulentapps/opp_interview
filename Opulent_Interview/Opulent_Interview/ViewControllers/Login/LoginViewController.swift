@@ -220,7 +220,7 @@ class LoginViewController: UIViewController {
         slideshow.pageControlPosition = PageControlPosition.insideScrollView
         slideshow.contentScaleMode = UIView.ContentMode.scaleAspectFill
         // source
-        let photos = ["app-bg-1", "app-bg-2", "app-bg-3"]
+        let photos = ["splash_1", "splash_2", "splash_3"]
         let source : Array<InputSource> = [ImageSource(image: UIImage(named: photos[0])!),
                                            ImageSource(image: UIImage(named: photos[1])!),
                                            ImageSource(image: UIImage(named: photos[2])!)]

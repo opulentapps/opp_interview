@@ -168,7 +168,7 @@
                 <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JZ2-p9-rVg" userLabel="view info">
                     <rect key="frame" x="40" y="100" width="250" height="330"/>
                     <subviews>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="g6p-pY-Uc0">
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="opp_logo" translatesAutoresizingMaskIntoConstraints="NO" id="g6p-pY-Uc0">
                             <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <constraints>
@@ -461,6 +461,6 @@
     <resources>
         <image name="btn-close-black" width="16" height="16"/>
         <image name="icon-facebook" width="8" height="16"/>
-        <image name="logo" width="70" height="70"/>
+        <image name="opp_logo" width="85" height="85"/>
     </resources>
 </document>

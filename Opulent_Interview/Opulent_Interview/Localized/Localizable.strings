@@ -7,11 +7,11 @@
 */
 
 // ----------------------- APP --------------------------
-"App Name" = "trid";
-"App Full Name" = "Trid - City Guide \nTemplate";
+"App Name" = "OpApp";
+"App Full Name" = "OpApp - Interview Guide \nTemplate";
 "App Slogan 1" = "Beautiful and Intuitive.";
-"App Slogan 2" = "Offline Maps and Contents";
-"App Slogan 3" = "Run Smooth and Fast";
+"App Slogan 2" = "Offline Questions and Contents.";
+"App Slogan 3" = "Interview with Confidence.";
 
 // ----------------------- Screen Login --------------------------
 "Connect with Facebook" = "Continue with Facebook";
