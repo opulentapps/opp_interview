@@ -9,6 +9,7 @@ target 'Opulent_Interview' do
   pod 'FontAwesomeKit'
   pod 'Toast-Swift', '~> 4.0.0'
   pod 'TTRangeSlider'
+  pod 'MBProgressHUD'
   #AutoLayout
   pod 'PureLayout'
   #Firebase
@@ -34,6 +35,7 @@ target 'Opulent_Interview' do
   #gmail
   pod 'GoogleAPIClientForREST/Gmail', '~> 1.1.1'
   pod 'GTMAppAuth'
+  
   
   target 'Opulent_InterviewTests' do
     inherit! :search_paths

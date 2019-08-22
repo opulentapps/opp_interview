@@ -21,6 +21,19 @@
 		0D60F96222F4AB8B00A83104 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D60F95522F4AB8B00A83104 /* Roboto-Bold.ttf */; };
 		0D60F96322F4AB8B00A83104 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D60F95622F4AB8B00A83104 /* Roboto-Thin.ttf */; };
 		0D60F96422F4AB8B00A83104 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D60F95722F4AB8B00A83104 /* Roboto-Black.ttf */; };
+		0D7B3024230F42C900AF5BC1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7B3023230F42C900AF5BC1 /* MainViewController.swift */; };
+		0D7B3027230F432800AF5BC1 /* SSASideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7B3026230F432800AF5BC1 /* SSASideMenu.swift */; };
+		0D7B302B230F435D00AF5BC1 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7B3029230F435D00AF5BC1 /* MenuViewController.swift */; };
+		0D7B302C230F435D00AF5BC1 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D7B302A230F435D00AF5BC1 /* MenuViewController.xib */; };
+		0D7B3037230F459A00AF5BC1 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7B3035230F459A00AF5BC1 /* MenuCell.swift */; };
+		0D7B3038230F459A00AF5BC1 /* MenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D7B3036230F459A00AF5BC1 /* MenuCell.xib */; };
+		0D7B303E230F460100AF5BC1 /* AllCitiesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D7B303A230F460000AF5BC1 /* AllCitiesViewController.xib */; };
+		0D7B303F230F460100AF5BC1 /* AllCitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7B303B230F460000AF5BC1 /* AllCitiesViewController.swift */; };
+		0D7B3040230F460100AF5BC1 /* PurchaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7B303C230F460000AF5BC1 /* PurchaseViewController.swift */; };
+		0D7B3041230F460100AF5BC1 /* PurchaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D7B303D230F460100AF5BC1 /* PurchaseViewController.xib */; };
+		0D7B3043230F472400AF5BC1 /* MainBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7B3042230F472400AF5BC1 /* MainBaseViewController.swift */; };
+		0D7B3047230F483300AF5BC1 /* TridHeaderBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D7B3045230F483300AF5BC1 /* TridHeaderBar.xib */; };
+		0D7B3048230F483300AF5BC1 /* TridHeaderBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7B3046230F483300AF5BC1 /* TridHeaderBar.swift */; };
 		0D87A8F722F36CC500409EB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D87A8F622F36CC500409EB2 /* AppDelegate.swift */; };
 		0D87A8F922F36CC500409EB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D87A8F822F36CC500409EB2 /* ViewController.swift */; };
 		0D87A8FC22F36CC500409EB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D87A8FA22F36CC500409EB2 /* Main.storyboard */; };
@@ -152,6 +165,19 @@
 		0D60F95522F4AB8B00A83104 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		0D60F95622F4AB8B00A83104 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		0D60F95722F4AB8B00A83104 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		0D7B3023230F42C900AF5BC1 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		0D7B3026230F432800AF5BC1 /* SSASideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSASideMenu.swift; sourceTree = "<group>"; };
+		0D7B3029230F435D00AF5BC1 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		0D7B302A230F435D00AF5BC1 /* MenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+		0D7B3035230F459A00AF5BC1 /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		0D7B3036230F459A00AF5BC1 /* MenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuCell.xib; sourceTree = "<group>"; };
+		0D7B303A230F460000AF5BC1 /* AllCitiesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AllCitiesViewController.xib; sourceTree = "<group>"; };
+		0D7B303B230F460000AF5BC1 /* AllCitiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllCitiesViewController.swift; sourceTree = "<group>"; };
+		0D7B303C230F460000AF5BC1 /* PurchaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseViewController.swift; sourceTree = "<group>"; };
+		0D7B303D230F460100AF5BC1 /* PurchaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PurchaseViewController.xib; sourceTree = "<group>"; };
+		0D7B3042230F472400AF5BC1 /* MainBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainBaseViewController.swift; sourceTree = "<group>"; };
+		0D7B3045230F483300AF5BC1 /* TridHeaderBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TridHeaderBar.xib; sourceTree = "<group>"; };
+		0D7B3046230F483300AF5BC1 /* TridHeaderBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TridHeaderBar.swift; sourceTree = "<group>"; };
 		0D87A8F322F36CC500409EB2 /* Opulent_Interview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Opulent_Interview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D87A8F622F36CC500409EB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D87A8F822F36CC500409EB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -319,6 +345,63 @@
 			path = Roboto;
 			sourceTree = "<group>";
 		};
+		0D7B3022230F427600AF5BC1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0D7B3039230F45ED00AF5BC1 /* All_Cities */,
+				0D7B3028230F434300AF5BC1 /* Menu */,
+				0D7B3023230F42C900AF5BC1 /* MainViewController.swift */,
+				0D7B3042230F472400AF5BC1 /* MainBaseViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0D7B3025230F432800AF5BC1 /* SSASideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				0D7B3026230F432800AF5BC1 /* SSASideMenu.swift */,
+			);
+			path = SSASideMenu;
+			sourceTree = "<group>";
+		};
+		0D7B3028230F434300AF5BC1 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				0D7B3029230F435D00AF5BC1 /* MenuViewController.swift */,
+				0D7B302A230F435D00AF5BC1 /* MenuViewController.xib */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		0D7B3034230F459A00AF5BC1 /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				0D7B3035230F459A00AF5BC1 /* MenuCell.swift */,
+				0D7B3036230F459A00AF5BC1 /* MenuCell.xib */,
+			);
+			path = menu;
+			sourceTree = "<group>";
+		};
+		0D7B3039230F45ED00AF5BC1 /* All_Cities */ = {
+			isa = PBXGroup;
+			children = (
+				0D7B303B230F460000AF5BC1 /* AllCitiesViewController.swift */,
+				0D7B303A230F460000AF5BC1 /* AllCitiesViewController.xib */,
+				0D7B303C230F460000AF5BC1 /* PurchaseViewController.swift */,
+				0D7B303D230F460100AF5BC1 /* PurchaseViewController.xib */,
+			);
+			path = All_Cities;
+			sourceTree = "<group>";
+		};
+		0D7B3044230F478900AF5BC1 /* header_bar */ = {
+			isa = PBXGroup;
+			children = (
+				0D7B3046230F483300AF5BC1 /* TridHeaderBar.swift */,
+				0D7B3045230F483300AF5BC1 /* TridHeaderBar.xib */,
+			);
+			path = header_bar;
+			sourceTree = "<group>";
+		};
 		0D87A8EA22F36CC500409EB2 = {
 			isa = PBXGroup;
 			children = (
@@ -384,6 +467,7 @@
 		0D87A92422F36D3000409EB2 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				0D7B3022230F427600AF5BC1 /* Main */,
 				0D87A92922F36D7700409EB2 /* Splash */,
 				0D87A92E22F36D9100409EB2 /* Login */,
 			);
@@ -411,6 +495,7 @@
 		0D87A92F22F3706E00409EB2 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				0D7B3025230F432800AF5BC1 /* SSASideMenu */,
 				0D87A99E22F3907900409EB2 /* ARSLineProgress */,
 				0D87A97F22F373BE00409EB2 /* TKSubmitTransition */,
 				0D87A94922F3716500409EB2 /* Segmentio */,
@@ -542,6 +627,7 @@
 		0D87A97022F371D800409EB2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0D7B3034230F459A00AF5BC1 /* menu */,
 				0D87A9CF22F3964A00409EB2 /* dashboard */,
 				0D87A9A522F3924F00409EB2 /* popup */,
 				0D87A97122F371F400409EB2 /* custom_ui */,
@@ -724,6 +810,7 @@
 		0D87A9CF22F3964A00409EB2 /* dashboard */ = {
 			isa = PBXGroup;
 			children = (
+				0D7B3044230F478900AF5BC1 /* header_bar */,
 				0D87A9D022F3965500409EB2 /* guide */,
 			);
 			path = dashboard;
@@ -890,6 +977,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D87A94722F3707F00409EB2 /* ic_cross_white@3x.png in Resources */,
+				0D7B303E230F460100AF5BC1 /* AllCitiesViewController.xib in Resources */,
 				0D87A92D22F36D8C00409EB2 /* LoginViewController.xib in Resources */,
 				0D60F95E22F4AB8B00A83104 /* Roboto-LightItalic.ttf in Resources */,
 				0D87A98E22F3745500409EB2 /* Localizable.strings in Resources */,
@@ -905,9 +993,13 @@
 				0D87A90122F36CC700409EB2 /* LaunchScreen.storyboard in Resources */,
 				0D87A96E22F3716500409EB2 /* BadgeWithCounterViewStandardSized.xib in Resources */,
 				0D87A9D722F3967100409EB2 /* PaidFacilityCell.xib in Resources */,
+				0D7B3041230F460100AF5BC1 /* PurchaseViewController.xib in Resources */,
 				0D87A8FE22F36CC700409EB2 /* Assets.xcassets in Resources */,
+				0D7B3047230F483300AF5BC1 /* TridHeaderBar.xib in Resources */,
 				0D87A8FC22F36CC500409EB2 /* Main.storyboard in Resources */,
+				0D7B3038230F459A00AF5BC1 /* MenuCell.xib in Resources */,
 				0D60F96222F4AB8B00A83104 /* Roboto-Bold.ttf in Resources */,
+				0D7B302C230F435D00AF5BC1 /* MenuViewController.xib in Resources */,
 				0D60F96022F4AB8B00A83104 /* LICENSE.txt in Resources */,
 				0D60F95A22F4AB8B00A83104 /* Roboto-Regular.ttf in Resources */,
 				0D87A92822F36D7200409EB2 /* SplashViewController.xib in Resources */,
@@ -1056,17 +1148,20 @@
 				0D87A9F022F3983500409EB2 /* OpAppService.swift in Sources */,
 				0D87A94622F3707F00409EB2 /* SDWebImageSource.swift in Sources */,
 				0D87A98D22F3745500409EB2 /* Localized.swift in Sources */,
+				0D7B302B230F435D00AF5BC1 /* MenuViewController.swift in Sources */,
 				0D87A9B222F392EB00409EB2 /* PopupText.swift in Sources */,
 				0D87A9F222F3985800409EB2 /* LanguageService.swift in Sources */,
 				0D87A92722F36D7200409EB2 /* SplashViewController.swift in Sources */,
 				0D87A97B22F372E800409EB2 /* OpAppTextField.swift in Sources */,
 				0D87A94022F3707F00409EB2 /* UIImageView+Tools.swift in Sources */,
 				0D87A96A22F3716500409EB2 /* SegmentioOptions.swift in Sources */,
+				0D7B3040230F460100AF5BC1 /* PurchaseViewController.swift in Sources */,
 				0D87A96222F3716500409EB2 /* SegmentioCell.swift in Sources */,
 				0D87A94322F3707F00409EB2 /* FullScreenSlideshowViewController.swift in Sources */,
 				0D87A9D622F3967100409EB2 /* PaidFacilityCell.swift in Sources */,
 				0D87A96122F3716500409EB2 /* SegmentioCellWithImageUnderLabel.swift in Sources */,
 				0D87A9C622F3956500409EB2 /* UserService.swift in Sources */,
+				0D7B303F230F460100AF5BC1 /* AllCitiesViewController.swift in Sources */,
 				0D87A94422F3707F00409EB2 /* InputSource.swift in Sources */,
 				0D87A96622F3716500409EB2 /* SegmentioCellWithImageOverLabel.swift in Sources */,
 				0D87A9C822F3958B00409EB2 /* FPlace.swift in Sources */,
@@ -1076,12 +1171,15 @@
 				0D87A9E822F3975C00409EB2 /* CountryService.swift in Sources */,
 				0D87A94222F3707F00409EB2 /* ImageSlideshow.swift in Sources */,
 				0D87A9A022F3907900409EB2 /* ARSLineProgress.swift in Sources */,
+				0D7B3043230F472400AF5BC1 /* MainBaseViewController.swift in Sources */,
 				0D87A99522F375FE00409EB2 /* Utils.swift in Sources */,
 				0D87A9A222F3912C00409EB2 /* Segmentio+Style.swift in Sources */,
 				0D87A93F22F3707F00409EB2 /* UIImage+AspectFit.swift in Sources */,
 				0D87A9B322F392EB00409EB2 /* PopupForgotPassword.swift in Sources */,
 				0D87A9E222F396FD00409EB2 /* CategoryService.swift in Sources */,
 				0D87A96522F3716500409EB2 /* SegmentioCellWithLabel.swift in Sources */,
+				0D7B3027230F432800AF5BC1 /* SSASideMenu.swift in Sources */,
+				0D7B3024230F42C900AF5BC1 /* MainViewController.swift in Sources */,
 				0D87A9AA22F392A300409EB2 /* PopupBase.swift in Sources */,
 				0D87A98722F373BE00409EB2 /* TransitionSubmitButton.swift in Sources */,
 				0D87A9F822F3989100409EB2 /* FFacility.swift in Sources */,
@@ -1098,6 +1196,7 @@
 				0D87A99B22F3768400409EB2 /* MeasurementHelper.swift in Sources */,
 				0D87A9EC22F3979C00409EB2 /* FWeather.swift in Sources */,
 				0D87A97922F372AB00409EB2 /* Global.swift in Sources */,
+				0D7B3048230F483300AF5BC1 /* TridHeaderBar.swift in Sources */,
 				0D87A9BC22F3943A00409EB2 /* Date+Extension.swift in Sources */,
 				0D87A94522F3707F00409EB2 /* ZoomAnimatedTransitioning.swift in Sources */,
 				0D87A98922F373BE00409EB2 /* TimerEx.swift in Sources */,
@@ -1107,6 +1206,7 @@
 				0D87A99922F3766300409EB2 /* UserDefaultKey.swift in Sources */,
 				0D87A96822F3716500409EB2 /* UIView+Appearance.swift in Sources */,
 				0D87A99022F374CC00409EB2 /* String+Extension.swift in Sources */,
+				0D7B3037230F459A00AF5BC1 /* MenuCell.swift in Sources */,
 				0D87A9AD22F392E400409EB2 /* PopupAddTip.swift in Sources */,
 				0D87A9EA22F3977300409EB2 /* FCountry.swift in Sources */,
 				0D87A97E22F3734200409EB2 /* UIColor+Hex.swift in Sources */,

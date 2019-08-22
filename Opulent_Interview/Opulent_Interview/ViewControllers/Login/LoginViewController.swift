@@ -344,112 +344,112 @@ class LoginViewController: UIViewController {
 //        })
 //    }
     
-//    @IBAction func actionEmailSignUp(_ sender: Any) {
-//        let name = tfSignUpName.text
-//        let email = tfSignUpEmail.text
-//        let password = tfSignUpPass.text
-//        let rePassword = tfSignUpRePass.text
-//        // check
-//        if name == nil || name == "" {
-//            self.view.makeToast(Localized.nameEmpty)
-//        }
-//        else if email == nil || email == "" {
-//            self.view.makeToast(Localized.emailEmpty)
-//        }
-//        else if !(email?.isValidEmail())! {
-//            self.view.makeToast(Localized.emailInvalid)
-//        }
-//        else if password == nil || password == "" {
-//            self.view.makeToast(Localized.passwordEmpty)
-//        }
-//        else if password != rePassword {
-//            self.view.makeToast(Localized.passwordDontMatch)
-//        }
-//        else {
-//            // AppLoading.showLoading()
-//            btnEmailSignUp.startLoadingAnimation()
-//            // request create user
-//            Auth.auth().createUser(withEmail: email!, password: password!) { (result, error) in
-//                if let user = result?.user {
-//                    // set display name
-//                    let changeRequest = user.createProfileChangeRequest()
-//                    changeRequest.displayName = name
-//                    changeRequest.commitChanges(){ (error2) in
-//                        if let error2 = error2 {
-//                            self.view.makeToast(error2.localizedDescription)
-//                            AppLoading.hideLoading()
-//                            self.btnEmailSignUp.stopAnimation()
-//                            return
-//                        }
-//                        // save user to DB
-//                        let fu = FUser.userWith(firUser: user, loginProvider: EmailAuthProviderID)
-//                        fu.saveInBackground({er3 in
-//                            if er3 == nil {
-//                                // Sign in & Save sign method
-//                                self.signInWithUser(fu, credential: SignInInfo.makeEmail(email!, password: password!))
-//                            }
-//                            else{
-//                                self.handleSignInError(notification: Notification(name: NotificationKey.signInError, object: er3, userInfo: nil))
-//                            }
-//                        })
-//                    }
-//                }
-//                else {
-//                    self.view.makeToast(error?.localizedDescription ?? Localized.SomethingWrong)
-//                    AppLoading.hideLoading()
-//                    self.btnEmailSignUp.stopAnimation()
-//                    return
-//                }
-//            }
-//        }
-//    }
+    @IBAction func actionEmailSignUp(_ sender: Any) {
+        let name = tfSignUpName.text
+        let email = tfSignUpEmail.text
+        let password = tfSignUpPass.text
+        let rePassword = tfSignUpRePass.text
+        // check
+        if name == nil || name == "" {
+            self.view.makeToast(Localized.nameEmpty)
+        }
+        else if email == nil || email == "" {
+            self.view.makeToast(Localized.emailEmpty)
+        }
+        else if !(email?.isValidEmail())! {
+            self.view.makeToast(Localized.emailInvalid)
+        }
+        else if password == nil || password == "" {
+            self.view.makeToast(Localized.passwordEmpty)
+        }
+        else if password != rePassword {
+            self.view.makeToast(Localized.passwordDontMatch)
+        }
+        else {
+            // AppLoading.showLoading()
+            btnEmailSignUp.startLoadingAnimation()
+            // request create user
+            Auth.auth().createUser(withEmail: email!, password: password!) { (result, error) in
+                if let user = result?.user {
+                    // set display name
+                    let changeRequest = user.createProfileChangeRequest()
+                    changeRequest.displayName = name
+                    changeRequest.commitChanges(){ (error2) in
+                        if let error2 = error2 {
+                            self.view.makeToast(error2.localizedDescription)
+                            AppLoading.hideLoading()
+                            self.btnEmailSignUp.stopAnimation()
+                            return
+                        }
+                        // save user to DB
+                        let fu = FUser.userWith(firUser: user, loginProvider: EmailAuthProviderID)
+                        fu.saveInBackground({er3 in
+                            if er3 == nil {
+                                // Sign in & Save sign method
+                                self.signInWithUser(fu, credential: SignInInfo.makeEmail(email!, password: password!))
+                            }
+                            else{
+                                self.handleSignInError(notification: Notification(name: NotificationKey.signInError, object: er3, userInfo: nil))
+                            }
+                        })
+                    }
+                }
+                else {
+                    self.view.makeToast(error?.localizedDescription ?? Localized.SomethingWrong)
+                    AppLoading.hideLoading()
+                    self.btnEmailSignUp.stopAnimation()
+                    return
+                }
+            }
+        }
+    }
     
-//    @IBAction func actionEmailSignIn(_ sender: Any) {
-//        let email = tfSignInEmail.text
-//        let password = tfSignInPass.text
-//        // check
-//        if email == nil || email == "" {
-//            self.view.makeToast(Localized.emailEmpty)
-//        }
-//        else if !(email?.isValidEmail())! {
-//            self.view.makeToast(Localized.emailInvalid)
-//        }
-//        else if password == nil || password == "" {
-//            self.view.makeToast(Localized.passwordEmpty)
-//        }
-//        else {
-//            // AppLoading.showLoading()
-//            btnEmailSignIn.startLoadingAnimation()
-//            // sign in
-//            Auth.auth().signIn(withEmail: email!, password: password!, completion: {(result, error) in
-//                if let result = result {
-//                    // Sign in & Save sign in method
-//                    let fu = FUser.userWith(firUser: result.user, loginProvider: EmailAuthProviderID)
-//                    fu.fetchInBackground(finish: {e in
-//                        if e == nil && fu.snapshot != nil {
-//                            self.signInWithUser(fu, credential: SignInInfo.makeEmail(email!, password: password!))
-//                            // done
-//                            self.clearSignInForm()
-//                            return
-//                        }
-//                        else{
-//                            // Error
-//                            self.view.makeToast(Localized.SomethingWrong)
-//                            self.btnEmailSignIn.stopAnimation()
-//                            AppLoading.hideLoading()
-//                            return
-//                        }
-//                    })
-//                }
-//                else {
-//                    self.view.makeToast(error?.localizedDescription ?? "")
-//                    AppLoading.hideLoading()
-//                    self.btnEmailSignIn.stopAnimation()
-//                    return
-//                }
-//            })
-//        }
-//    }
+    @IBAction func actionEmailSignIn(_ sender: Any) {
+        let email = tfSignInEmail.text
+        let password = tfSignInPass.text
+        // check
+        if email == nil || email == "" {
+            self.view.makeToast(Localized.emailEmpty)
+        }
+        else if !(email?.isValidEmail())! {
+            self.view.makeToast(Localized.emailInvalid)
+        }
+        else if password == nil || password == "" {
+            self.view.makeToast(Localized.passwordEmpty)
+        }
+        else {
+            // AppLoading.showLoading()
+            btnEmailSignIn.startLoadingAnimation()
+            // sign in
+            Auth.auth().signIn(withEmail: email!, password: password!, completion: {(result, error) in
+                if let result = result {
+                    // Sign in & Save sign in method
+                    let fu = FUser.userWith(firUser: result.user, loginProvider: EmailAuthProviderID)
+                    fu.fetchInBackground(finish: {e in
+                        if e == nil && fu.snapshot != nil {
+                            self.signInWithUser(fu, credential: SignInInfo.makeEmail(email!, password: password!))
+                            // done
+                            self.clearSignInForm()
+                            return
+                        }
+                        else{
+                            // Error
+                            self.view.makeToast(Localized.SomethingWrong)
+                            self.btnEmailSignIn.stopAnimation()
+                            AppLoading.hideLoading()
+                            return
+                        }
+                    })
+                }
+                else {
+                    self.view.makeToast(error?.localizedDescription ?? "")
+                    AppLoading.hideLoading()
+                    self.btnEmailSignIn.stopAnimation()
+                    return
+                }
+            })
+        }
+    }
     
     @IBAction func actionEmailForgotPass(_ sender: Any) {
         let popup = PopupForgotPassword.create()
@@ -494,10 +494,10 @@ class LoginViewController: UIViewController {
     }
     
     // MARK: - FIREBASE action
-//    func signInWithUser(_ user: FUser, credential: SignInInfo){
-//        // Check user info: inactive, uncommentable, ...
-//        Utils.signInWith(user: user, signinInfo: credential)
-//    }
+    func signInWithUser(_ user: FUser, credential: SignInInfo){
+        // Check user info: inactive, uncommentable, ...
+        Utils.signInWith(user: user, signinInfo: credential)
+    }
     
     
     // MARK: - HANDLE Notifications
