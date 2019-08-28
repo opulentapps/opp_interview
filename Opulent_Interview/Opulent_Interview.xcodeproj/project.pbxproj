@@ -116,11 +116,6 @@
 		0D87A9F422F3986A00409EB2 /* SubCategoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D87A9F322F3986A00409EB2 /* SubCategoryService.swift */; };
 		0D87A9F622F3987B00409EB2 /* FacilityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D87A9F522F3987A00409EB2 /* FacilityService.swift */; };
 		0D87A9F822F3989100409EB2 /* FFacility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D87A9F722F3989100409EB2 /* FFacility.swift */; };
-		0DD78B122310BB3200CF48EC /* HomeViewController+SectionViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD78B0E2310BB3000CF48EC /* HomeViewController+SectionViewControllerDelegate.swift */; };
-		0DD78B132310BB3200CF48EC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD78B0F2310BB3100CF48EC /* HomeViewController.swift */; };
-		0DD78B142310BB3200CF48EC /* HomeViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD78B102310BB3100CF48EC /* HomeViewController+Navigation.swift */; };
-		0DD78B152310BB3200CF48EC /* HomeViewController+ChapterCollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD78B112310BB3200CF48EC /* HomeViewController+ChapterCollectionViewDelegate.swift */; };
-		0DD78B172310BB8900CF48EC /* SectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD78B162310BB8900CF48EC /* SectionViewController.swift */; };
 		68599268E2E2DA84E5218B0F /* Pods_Opulent_InterviewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B075BA3931EC9321A8E8DD27 /* Pods_Opulent_InterviewUITests.framework */; };
 		DAC9881BB93102D546CA2588 /* Pods_Opulent_Interview.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 254007CCE28DE3FDA2497A97 /* Pods_Opulent_Interview.framework */; };
 		E4A373A58AB855C40E863127 /* Pods_Opulent_InterviewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 366247AAE0DB769A18C3314D /* Pods_Opulent_InterviewTests.framework */; };
@@ -259,11 +254,6 @@
 		0D87A9F322F3986A00409EB2 /* SubCategoryService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubCategoryService.swift; sourceTree = "<group>"; };
 		0D87A9F522F3987A00409EB2 /* FacilityService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacilityService.swift; sourceTree = "<group>"; };
 		0D87A9F722F3989100409EB2 /* FFacility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFacility.swift; sourceTree = "<group>"; };
-		0DD78B0E2310BB3000CF48EC /* HomeViewController+SectionViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HomeViewController+SectionViewControllerDelegate.swift"; sourceTree = "<group>"; };
-		0DD78B0F2310BB3100CF48EC /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		0DD78B102310BB3100CF48EC /* HomeViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HomeViewController+Navigation.swift"; sourceTree = "<group>"; };
-		0DD78B112310BB3200CF48EC /* HomeViewController+ChapterCollectionViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HomeViewController+ChapterCollectionViewDelegate.swift"; sourceTree = "<group>"; };
-		0DD78B162310BB8900CF48EC /* SectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionViewController.swift; sourceTree = "<group>"; };
 		254007CCE28DE3FDA2497A97 /* Pods_Opulent_Interview.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Opulent_Interview.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		366247AAE0DB769A18C3314D /* Pods_Opulent_InterviewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Opulent_InterviewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E821C00BCE5664B76B664F8 /* Pods-Opulent_InterviewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Opulent_InterviewUITests.release.xcconfig"; path = "Target Support Files/Pods-Opulent_InterviewUITests/Pods-Opulent_InterviewUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -334,11 +324,6 @@
 		0D7B3022230F427600AF5BC1 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				0DD78B0F2310BB3100CF48EC /* HomeViewController.swift */,
-				0DD78B112310BB3200CF48EC /* HomeViewController+ChapterCollectionViewDelegate.swift */,
-				0DD78B102310BB3100CF48EC /* HomeViewController+Navigation.swift */,
-				0DD78B0E2310BB3000CF48EC /* HomeViewController+SectionViewControllerDelegate.swift */,
-				0DD78B162310BB8900CF48EC /* SectionViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -1090,7 +1075,6 @@
 				0D87A9F022F3983500409EB2 /* OpAppService.swift in Sources */,
 				0D87A94622F3707F00409EB2 /* SDWebImageSource.swift in Sources */,
 				0D87A98D22F3745500409EB2 /* Localized.swift in Sources */,
-				0DD78B152310BB3200CF48EC /* HomeViewController+ChapterCollectionViewDelegate.swift in Sources */,
 				0D87A9B222F392EB00409EB2 /* PopupText.swift in Sources */,
 				0D87A9F222F3985800409EB2 /* LanguageService.swift in Sources */,
 				0D87A92722F36D7200409EB2 /* SplashViewController.swift in Sources */,
@@ -1098,7 +1082,6 @@
 				0D87A94022F3707F00409EB2 /* UIImageView+Tools.swift in Sources */,
 				0D87A96A22F3716500409EB2 /* SegmentioOptions.swift in Sources */,
 				0D87A96222F3716500409EB2 /* SegmentioCell.swift in Sources */,
-				0DD78B172310BB8900CF48EC /* SectionViewController.swift in Sources */,
 				0D87A94322F3707F00409EB2 /* FullScreenSlideshowViewController.swift in Sources */,
 				0D87A9D622F3967100409EB2 /* PaidFacilityCell.swift in Sources */,
 				0D87A96122F3716500409EB2 /* SegmentioCellWithImageUnderLabel.swift in Sources */,
@@ -1137,8 +1120,6 @@
 				0D87A97922F372AB00409EB2 /* Global.swift in Sources */,
 				0D87A9BC22F3943A00409EB2 /* Date+Extension.swift in Sources */,
 				0D87A94522F3707F00409EB2 /* ZoomAnimatedTransitioning.swift in Sources */,
-				0DD78B142310BB3200CF48EC /* HomeViewController+Navigation.swift in Sources */,
-				0DD78B122310BB3200CF48EC /* HomeViewController+SectionViewControllerDelegate.swift in Sources */,
 				0D87A98922F373BE00409EB2 /* TimerEx.swift in Sources */,
 				0D87A8F722F36CC500409EB2 /* AppDelegate.swift in Sources */,
 				0D87A9A722F3926500409EB2 /* PopupPaidFacility.swift in Sources */,
@@ -1157,7 +1138,6 @@
 				0D87A9CE22F395FF00409EB2 /* CityService.swift in Sources */,
 				0D87A9E422F3971E00409EB2 /* FSubcategory.swift in Sources */,
 				0D87A98522F373BE00409EB2 /* SpinerLayer.swift in Sources */,
-				0DD78B132310BB3200CF48EC /* HomeViewController.swift in Sources */,
 				0D87A9BA22F3942500409EB2 /* UITextView+Extension.swift in Sources */,
 				0D87A99722F3762700409EB2 /* AppState.swift in Sources */,
 				0D87A98622F373BE00409EB2 /* CGRectEx.swift in Sources */,

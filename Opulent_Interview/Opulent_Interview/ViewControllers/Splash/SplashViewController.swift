@@ -30,50 +30,76 @@ class SplashViewController: UIViewController {
     }
     
     func autologin() {
+        
+//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//        let controller = storyboard.instantiateViewController(withIdentifier: "MainVC")
+//        self.present(controller, animated: true, completion: nil)
+        
+//        // Safe Present
+//        if let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MainVC") as? ViewController
+//        {
+//            present(vc, animated: true, completion: nil)
+//        }
+        
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "MainVC") as UIViewController
+        navigationController?.pushViewController(vc, animated: true)
+        
+        // Safe Push VC
+//        if let viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MainVC") as? ViewController {
+//            if let navigator = navigationController {
+//                navigator.pushViewController(viewController, animated: true)
+//            }
+//        }
+        
+        
+        
+        
         // auto login
-        let info = AppState.getSignInInfo()
-        var credential : AuthCredential?
-        if info != nil {
-            credential = info?.credential()
-        }
-        // có thể đã login hoặc login nhưng bị hết hạn session
-        listenerHandle = Auth.auth().addStateDidChangeListener({auth, user in
-            if self.checkedLogin {
-                return
-            }
-            self.checkedLogin = true
-            if user != nil {
-                user!.reload(completion: {error in
-                    if error != nil {
-                        // something wrong, maybe user has been deleted
-                        self.gotoLogin()
-                    }
-                    else{
-                        if credential != nil {
-                            // Reauth by credential. because maybe user was disabled
-                            user?.reauthenticate(with: credential!) { error in
-                                if error != nil {
-                                    // remove current user
-                                    AppState.currentUser = nil
-                                    // An error happened.
-                                    self.gotoLogin()
-                                    // clear credential
-                                    AppState.setSignInInfo(nil)
-                                } else {
-                                    self.continueWithUser(user!)
-                                }
-                            }
-                        }
-                        else{
-                            self.continueWithUser(user!)
-                        }
-                    }
-                })
-            }
-            else{
-                self.gotoLogin()
-            }
-        })
+//        let info = AppState.getSignInInfo()
+//        var credential : AuthCredential?
+//        if info != nil {
+//            credential = info?.credential()
+//        }
+//        // có thể đã login hoặc login nhưng bị hết hạn session
+//        listenerHandle = Auth.auth().addStateDidChangeListener({auth, user in
+//            if self.checkedLogin {
+//                return
+//            }
+//            self.checkedLogin = true
+//            if user != nil {
+//                user!.reload(completion: {error in
+//                    if error != nil {
+//                        // something wrong, maybe user has been deleted
+//                        self.gotoLogin()
+//                    }
+//                    else{
+//                        if credential != nil {
+//                            // Reauth by credential. because maybe user was disabled
+//                            user?.reauthenticate(with: credential!) { error in
+//                                if error != nil {
+//                                    // remove current user
+//                                    AppState.currentUser = nil
+//                                    // An error happened.
+//                                    self.gotoLogin()
+//                                    // clear credential
+//                                    AppState.setSignInInfo(nil)
+//                                } else {
+//                                    self.continueWithUser(user!)
+//                                }
+//                            }
+//                        }
+//                        else{
+//                            self.continueWithUser(user!)
+//                        }
+//                    }
+//                })
+//            }
+//            else{
+//                self.gotoLogin()
+//            }
+//        })
     }
     
     func continueWithUser(_ user: User) {
