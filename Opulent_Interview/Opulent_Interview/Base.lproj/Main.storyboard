@@ -280,9 +280,6 @@
                                                             <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                                             <inset key="imageEdgeInsets" minX="2" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                             <state key="normal" image="button-play-small"/>
-                                                            <connections>
-                                                                <action selector="videoButtonTapped" destination="0OT-uW-7OH" eventType="touchUpInside" id="qr7-IE-iBg"/>
-                                                            </connections>
                                                         </button>
                                                     </subviews>
                                                     <constraints>
@@ -628,9 +625,6 @@
                                                         <real key="value" value="22"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="purchaseButtonTapped:" destination="0OT-uW-7OH" eventType="touchUpInside" id="0r6-4U-Pch"/>
-                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recurring billing, cancel anytime." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qOB-wW-4Qi">
                                                 <rect key="frame" x="20" y="227" width="280" height="19.5"/>
@@ -658,9 +652,6 @@
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="ambience" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="discountButtonTapped:" destination="0OT-uW-7OH" eventType="touchUpInside" id="96n-40-W5W"/>
-                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -765,11 +756,7 @@
                     </view>
                     <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="z5U-2D-RNz">
                         <nil key="title"/>
-                        <barButtonItem key="leftBarButtonItem" image="logo-designcode" id="Kmk-FY-c1z">
-                            <connections>
-                                <action selector="logoButtonTapped:" destination="0OT-uW-7OH" id="Vhk-3v-V7v"/>
-                            </connections>
-                        </barButtonItem>
+                        <barButtonItem key="leftBarButtonItem" image="logo-designcode" id="Kmk-FY-c1z"/>
                         <view key="titleView" contentMode="scaleToFill" id="oPJ-j3-SKr">
                             <rect key="frame" x="95" y="8" width="130" height="28"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -790,9 +777,6 @@
                                             <real key="value" value="14"/>
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
-                                    <connections>
-                                        <action selector="purchaseButtonTapped:" destination="0OT-uW-7OH" eventType="touchUpInside" id="aDt-RN-ZJg"/>
-                                    </connections>
                                 </button>
                             </subviews>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -805,28 +789,10 @@
                         </view>
                         <barButtonItem key="rightBarButtonItem" title="Login" id="VJV-Jy-v5T">
                             <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            <connections>
-                                <action selector="loginButtonTapped:" destination="0OT-uW-7OH" id="31f-mI-har"/>
-                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <size key="freeformSize" width="320" height="4300"/>
-                    <connections>
-                        <outlet property="backgroundImageView" destination="qfL-AQ-Ixk" id="pBh-TE-LVc"/>
-                        <outlet property="benefitContainerView" destination="2xV-kg-aav" id="giU-jE-ylV"/>
-                        <outlet property="benefitContainerViewHeightConstraint" destination="nYa-Dx-hPg" id="5GE-Pg-il9"/>
-                        <outlet property="bodyView" destination="496-sf-csn" id="Ms2-x0-cBK"/>
-                        <outlet property="buyBookButton" destination="RJB-eR-ZLz" id="785-r9-AmH"/>
-                        <outlet property="contentView" destination="gK9-VU-mub" id="WaD-za-w8L"/>
-                        <outlet property="loginButton" destination="VJV-Jy-v5T" id="gt1-aP-leb"/>
-                        <outlet property="phoneImageView" destination="DbY-gn-jCo" id="KT9-e1-mox"/>
-                        <outlet property="readyToStartActionButton" destination="AXu-1x-6Di" id="gdb-zJ-oJw"/>
-                        <outlet property="readyToStartViewHeightConstraint" destination="oiL-bn-K0p" id="3SK-GV-krJ"/>
-                        <outlet property="scrollView" destination="roJ-NO-8jW" id="K0r-lY-Q2x"/>
-                        <outlet property="textView" destination="vTO-xn-VQR" id="5fM-zR-1F0"/>
-                        <outlet property="titleLabel" destination="e7d-0y-h3I" id="dBl-GF-kNA"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ol0-j0-QEH" sceneMemberID="firstResponder"/>
             </objects>

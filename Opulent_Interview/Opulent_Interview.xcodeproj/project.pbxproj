@@ -116,6 +116,7 @@
 		0D87A9F422F3986A00409EB2 /* SubCategoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D87A9F322F3986A00409EB2 /* SubCategoryService.swift */; };
 		0D87A9F622F3987B00409EB2 /* FacilityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D87A9F522F3987A00409EB2 /* FacilityService.swift */; };
 		0D87A9F822F3989100409EB2 /* FFacility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D87A9F722F3989100409EB2 /* FFacility.swift */; };
+		0DA021332316EFAD00079B6E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA021322316EFAD00079B6E /* HomeViewController.swift */; };
 		68599268E2E2DA84E5218B0F /* Pods_Opulent_InterviewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B075BA3931EC9321A8E8DD27 /* Pods_Opulent_InterviewUITests.framework */; };
 		DAC9881BB93102D546CA2588 /* Pods_Opulent_Interview.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 254007CCE28DE3FDA2497A97 /* Pods_Opulent_Interview.framework */; };
 		E4A373A58AB855C40E863127 /* Pods_Opulent_InterviewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 366247AAE0DB769A18C3314D /* Pods_Opulent_InterviewTests.framework */; };
@@ -254,6 +255,7 @@
 		0D87A9F322F3986A00409EB2 /* SubCategoryService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubCategoryService.swift; sourceTree = "<group>"; };
 		0D87A9F522F3987A00409EB2 /* FacilityService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacilityService.swift; sourceTree = "<group>"; };
 		0D87A9F722F3989100409EB2 /* FFacility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFacility.swift; sourceTree = "<group>"; };
+		0DA021322316EFAD00079B6E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		254007CCE28DE3FDA2497A97 /* Pods_Opulent_Interview.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Opulent_Interview.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		366247AAE0DB769A18C3314D /* Pods_Opulent_InterviewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Opulent_InterviewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E821C00BCE5664B76B664F8 /* Pods-Opulent_InterviewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Opulent_InterviewUITests.release.xcconfig"; path = "Target Support Files/Pods-Opulent_InterviewUITests/Pods-Opulent_InterviewUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -319,13 +321,6 @@
 				0D60F95722F4AB8B00A83104 /* Roboto-Black.ttf */,
 			);
 			path = Roboto;
-			sourceTree = "<group>";
-		};
-		0D7B3022230F427600AF5BC1 /* Main */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Main;
 			sourceTree = "<group>";
 		};
 		0D7B3025230F432800AF5BC1 /* SSASideMenu */ = {
@@ -401,7 +396,7 @@
 		0D87A92422F36D3000409EB2 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				0D7B3022230F427600AF5BC1 /* Main */,
+				0DA021312316EF9D00079B6E /* MainVC */,
 				0D87A92922F36D7700409EB2 /* Splash */,
 				0D87A92E22F36D9100409EB2 /* Login */,
 			);
@@ -776,6 +771,14 @@
 			path = "count control";
 			sourceTree = "<group>";
 		};
+		0DA021312316EF9D00079B6E /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				0DA021322316EFAD00079B6E /* HomeViewController.swift */,
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
 		38DDA27C75F52FD400DC0CC9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1103,6 +1106,7 @@
 				0D87A96522F3716500409EB2 /* SegmentioCellWithLabel.swift in Sources */,
 				0D7B3027230F432800AF5BC1 /* SSASideMenu.swift in Sources */,
 				0D87A9AA22F392A300409EB2 /* PopupBase.swift in Sources */,
+				0DA021332316EFAD00079B6E /* HomeViewController.swift in Sources */,
 				0D87A98722F373BE00409EB2 /* TransitionSubmitButton.swift in Sources */,
 				0D87A9F822F3989100409EB2 /* FFacility.swift in Sources */,
 				0D87A9B822F393B200409EB2 /* SignInInfo.swift in Sources */,
