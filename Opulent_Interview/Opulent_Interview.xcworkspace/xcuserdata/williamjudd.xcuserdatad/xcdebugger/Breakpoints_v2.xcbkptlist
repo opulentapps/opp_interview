@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Bucket
+   uuid = "2E7A2F8D-6CE2-4CF7-865A-3B92E21BDF43"
    type = "0"
    version = "2.0">
    <Breakpoints>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
          <BreakpointContent
+            uuid = "30F0680C-665F-4B59-B0D2-DD3044FF3814"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -16,6 +18,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "5BCE5CAB-2173-4490-8EE3-475B1CD32B30"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -23,12 +26,13 @@
             timestampString = "588202295.454114"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "424"
-            endingLineNumber = "424"
+            startingLineNumber = "429"
+            endingLineNumber = "429"
             landmarkName = "actionEmailSignIn(_:)"
             landmarkType = "7">
             <Locations>
                <Location
+                  uuid = "5BCE5CAB-2173-4490-8EE3-475B1CD32B30 - e330d2b75c10fe1"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -44,6 +48,7 @@
                   offsetFromSymbolStart = "3724">
                </Location>
                <Location
+                  uuid = "5BCE5CAB-2173-4490-8EE3-475B1CD32B30 - 822fbfa4370d55d2"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"

@@ -310,7 +310,16 @@ class LoginViewController: UIViewController {
     // MARK: - Actions
     @IBAction func actionSkip(_ sender: AnyObject) {
         makeAllButtonEnabled(false)
-        letgo()
+//        letgo()
+        
+        
+        print("skip pressed")
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "MainVC") as UIViewController
+        navigationController?.pushViewController(vc, animated: true)
+        
+        
+     
     }
     
     //    @IBAction func actionSignInWithGoogle(_ sender: Any) {

@@ -31,29 +31,34 @@ class SplashViewController: UIViewController {
     
     func autologin() {
         
-//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-//        let controller = storyboard.instantiateViewController(withIdentifier: "MainVC")
-//        self.present(controller, animated: true, completion: nil)
+        //        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        //        let controller = storyboard.instantiateViewController(withIdentifier: "MainVC")
+        //        self.present(controller, animated: true, completion: nil)
         
-//        // Safe Present
-//        if let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MainVC") as? ViewController
-//        {
-//            present(vc, animated: true, completion: nil)
-//        }
+        //        // Safe Present
+        //        if let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MainVC") as? ViewController
+        //        {
+        //            present(vc, animated: true, completion: nil)
+        //        }
         
         
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let vc = storyboard.instantiateViewController(withIdentifier: "MainVC") as UIViewController
-        navigationController?.pushViewController(vc, animated: true)
+        //        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        //        let vc = storyboard.instantiateViewController(withIdentifier: "MainVC") as UIViewController
+        //        navigationController?.pushViewController(vc, animated: true)
         
         // Safe Push VC
-//        if let viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MainVC") as? ViewController {
-//            if let navigator = navigationController {
-//                navigator.pushViewController(viewController, animated: true)
-//            }
-//        }
+        //        if let viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MainVC") as? ViewController {
+        //            if let navigator = navigationController {
+        //                navigator.pushViewController(viewController, animated: true)
+        //            }
+        //        }
         
         
+        
+        // Manual Login
+        
+        let controller = LoginViewController(nibName: "LoginViewController", bundle: nil)
+        _ = self.navigationController?.pushViewController(controller, animated: false)
         
         
         // auto login
@@ -62,7 +67,6 @@ class SplashViewController: UIViewController {
 //        if info != nil {
 //            credential = info?.credential()
 //        }
-//        // có thể đã login hoặc login nhưng bị hết hạn session
 //        listenerHandle = Auth.auth().addStateDidChangeListener({auth, user in
 //            if self.checkedLogin {
 //                return
